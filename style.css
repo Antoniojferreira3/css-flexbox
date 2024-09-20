@@ -73,7 +73,7 @@ border-radius: 16px;
     height: 500px;
 
     }
-    .container-column{
+    .container-column {
         display: flex;
     flex-direction: column;
     background-color: antiquewhite;
@@ -82,7 +82,7 @@ border-radius: 16px;
 
     }
 
-    .h2{
+    .direito {
 text-align: right;
 
     }
