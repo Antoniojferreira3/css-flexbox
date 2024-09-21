@@ -263,3 +263,25 @@ hr {
     padding: 16px;
     height: 500px;
   }
+
+  .container-flexwrap-nowrap {
+    display: flex;
+    flex-direction: row;/* eixo principal*/
+    justify-content: center;
+    align-items: center; /* alinha no eixo secundário*/
+    flex-wrap:nowrap;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+  }
+
+  .container-flexwrap-wrap {
+    display: flex;
+    flex-direction: row;/* eixo principal*/
+    justify-content: center;
+    align-items: center; /* alinha no eixo secundário*/
+    flex-wrap:wrap-reverse;
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+  }
